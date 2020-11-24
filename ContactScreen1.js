@@ -1,7 +1,7 @@
 import React from "react";
 import { View, FlatList, Text, StyleSheet } from "react-native";
 import Contact from './components/Contact';
-function ContactScreen() {
+function ContactScreen1({navigation}) {
   const contacts = [
     { name: "Mathew Shaker", number: "0266406166" },
     { name: "Mark Shake", number: "0247764481" },
@@ -55,4 +55,4 @@ const styles = StyleSheet.create({
     },
     });
 
-export default ContactScreen;
+export default ContactScreen1;
